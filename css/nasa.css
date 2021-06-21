@@ -1,0 +1,15 @@
+#nasaPageBody{
+    background-color:white;
+    border-top: solid 4px darkblue;
+    border-bottom: solid 4px darkblue;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    display: block;
+}
+
+.figureText{
+    font-size: 12px
+}

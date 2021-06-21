@@ -1,0 +1,139 @@
+/*CSS for html*/
+html{
+    height: 100%;
+    min-width: 1350px;
+    min-height: 1000px;
+    margin: 0 0 0 0;
+    position: relative;
+    overflow: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url(../photos/repeatingBackground.jpg);
+}
+
+/*CSS for body*/
+body{
+    height: 100%;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/*CSS for navigation bar*/
+.navigationBar {
+    background-color: #404040;
+    border-bottom: 3px solid black;
+    height: 7%;
+    min-height: 100px;
+    width: 100%;
+    min-width: 1350px;
+
+
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*CSS for name in the top left of page*/
+#name{
+    border: 1px solid white;
+    padding: 20px;
+    margin-right: 150px;
+    position:absolute;
+    left: 15px;
+    top: 5px;
+    line-height: 0;
+    font-size: 25px;
+    font-weight: 5;
+    cursor:pointer;
+}
+
+/*CSS that makes links white with a white underline*/
+.whiteUnderline {
+    border-bottom: solid white 1px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*CSS that makes links white with NO underline*/
+.whiteNoUnderline {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*CSS for top icons*/
+.topIcons {
+    background-color: #404040;
+    line-height: 0;
+    margin: 10px 20px 0 0;
+    float: right;
+    font-size: 15px;
+}
+
+
+/*CSS for container below navigation bar*/
+.container {
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+
+/*CSS for side bar*/
+.sideBar {
+    background-color:#404040;
+    position: absolute;
+    width: 280px;
+    border: solid 2px black;
+    border-top: 0;
+    height: 100%;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*CSS for side bar text*/
+.sideBarText {
+    position: absolute;
+    left: 50px;
+    height: 100%;
+}
+
+/*CSS for project container*/
+.projectListContainer {
+    list-style-type: none;
+    margin: 15px 0 0 -20px;
+}
+/*CSS for project list text*/
+.projectListElements {
+    margin: 20px 0 0 0;
+}
+
+/*CSS for bottom icons*/
+.bottomIcons {
+    position: absolute;
+    bottom: 15px;
+    left: 14px;
+    background-color: #404040;
+}
+
+/*CSS for main page container*/
+#pageBodyContainer {
+    box-sizing: border-box;
+    margin-left: 285px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
