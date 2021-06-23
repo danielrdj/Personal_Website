@@ -5,8 +5,14 @@
     border-bottom: solid 4px darkblue;
     box-sizing: border-box;
     margin: 50px;
-    padding: 40px 0 0 60px;
+    padding: 5px 5px 5px 5px;
     font-family: "Lucida Console", "Courier New", monospace;
     color: black;
     display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#sidenav-container {
+
 }

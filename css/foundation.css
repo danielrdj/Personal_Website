@@ -123,6 +123,8 @@ body{
     box-sizing: border-box;
     margin-left: 285px;
     overflow: auto;
+    height: 100%;
+    width: 100%;
 }
 
 
