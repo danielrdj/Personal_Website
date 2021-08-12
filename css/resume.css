@@ -6,11 +6,13 @@
     box-sizing: border-box;
     margin: 50px;
     padding: 5px 5px 5px 5px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Tahoma", "Courier New", monospace;
     color: black;
     display: block;
     height: 100%;
     width: 100%;
+    letter-spacing: .1rem;
+    line-height: normal;
 }
 
 #sidenav-container {
