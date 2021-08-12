@@ -5,11 +5,68 @@
     border-bottom: solid 4px darkblue;
     box-sizing: border-box;
     margin: 50px;
-    padding: 40px 0 0 60px;
+    padding: 40px 50px 0 60px;
     font-family: "Tahoma", "Courier New", monospace;
     color: black;
     display: block;
-    text-align: center;
+    text-align: left;
     letter-spacing: .1rem;
     line-height: normal;
+    position: relative;
 }
+
+.buttonImageContainer{
+
+    position:relative;
+    padding: 5px 5px 5px 5px;
+    min-width: 495px;
+
+}
+
+.mySlides{
+    size: auto;
+    max-width: 100%;
+    border: black solid 1px;
+
+}
+
+.mySlidesRightButton{
+    position:absolute;
+
+    top: 50%;
+    right: 0.5%;
+
+    padding: 1.75% 1% 1.75% 1.75%;
+
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    opacity:75%;
+}
+
+.mySlidesLeftButton{
+    position: absolute;
+
+    top: 50%;
+    left: 0.9%;
+
+    padding: 1.75% 1% 1.75% 1.75%;
+
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    opacity:75%;
+}
+
+.mySlidesLeftButton:hover{
+    background-color: black;
+}
+
+.mySlidesRightButton:hover{
+    background-color: black;
+}
+
