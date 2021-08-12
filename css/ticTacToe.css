@@ -6,7 +6,9 @@
     box-sizing: border-box;
     margin: 50px;
     padding: 40px 0 0 60px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Tahoma", "Courier New", monospace;
     color: black;
     display: block;
+    letter-spacing: .1rem;
+    line-height: normal;
 }

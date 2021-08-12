@@ -6,7 +6,7 @@ html{
     margin: 0 0 0 0;
     position: relative;
     overflow: auto;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Tahoma", "Courier New", monospace;
     background-image: url(../photos/repeatingBackground.jpg);
 }
 
