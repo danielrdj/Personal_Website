@@ -12,7 +12,7 @@
     height: 100%;
     width: 100%;
     letter-spacing: .1rem;
-    line-height: normal;
+    line-height: 25px;
 }
 
 #sidenav-container {

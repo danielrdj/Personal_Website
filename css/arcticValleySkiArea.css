@@ -11,7 +11,7 @@
     display: block;
     text-align: left;
     letter-spacing: .1rem;
-    line-height: normal;
+    line-height: 25px;
 }
 
 .buttonImageContainer{
