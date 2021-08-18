@@ -1,14 +1,16 @@
 /*CSS for about me page*/
 #aboutMePageBody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
     background-color:white;
     border-top: solid 4px darkblue;
     border-bottom: solid 4px darkblue;
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 40px 0 0 60px;
+
     font-family: "Tahoma", "Courier New", monospace;
     color: black;
-    display: block;
     letter-spacing: .1rem;
     line-height: normal;
 }

@@ -1,153 +1,168 @@
 /*CSS for html*/
 html{
     height: 100%;
-    min-width: 1000px;
-    min-height: 1000px;
-    margin: 0 0 0 0;
-    position: relative;
+    margin: 0;
     overflow: auto;
-    font-family: "Tahoma", "Courier New", monospace;
-    background-image: url(../photos/repeatingBackground.jpg);
+
+    font-family: "Tahoma", "Courier New", sans-serif;
+    background: white;
 }
 
 /*CSS for body*/
 body{
-    height: 100%;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-    color: white;
+    height:100%;
+    margin: 0;
+    overflow: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    grid-template-columns: 1.5fr 8.5fr;
 }
 
-/*CSS for navigation bar*/
-.navigationBar {
+header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background: #404040;
+    border-bottom: black solid 2px;
+    font-size: 2vw;
+    overflow: hidden;
+
+}
+
+aside{
+    grid-column: 1/2;
+    grid-row: 2/3;
     background-color: #404040;
-    border-bottom: 3px solid black;
-    height: 7%;
-    min-height: 100px;
-    width: 100%;
-    min-width: 1000px;
+    border-right: black solid 2px;
+    /* Top, Right, Bottom, Left*/
 
-
-    font-size: 30px;
+    min-width: 270px;
+    min-height:685px;
+    max-width:450px;
     font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    line-height: 100px;
+    text-align: left;
+}
+
+aside h1{
+    padding: 0 0 1vh 0;
+    margin: 0 0 0 0;
+    font-size: min(max(3.0vh, 25px), 35px);
+}
+
+
+main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    overflow: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: white;
+}
+
+
+/*
+footer{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background: aqua;
+    border-top: black solid 2px;
+}
+*/
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-column-container{
+    display: flex;
+    flex-direction: column;
+
+    max-height: 100%;
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    /* fr is a fractional part of space available*/
 }
 
 /*CSS for name in the top left of page*/
 #name{
     border: 1px solid white;
-    padding: 20px;
-    margin-right: 150px;
-    position:absolute;
-    left: 15px;
-    top: 5px;
-    line-height: 0;
-    font-size: 25px;
-    font-weight: 5;
+    font-size: min(max(1.6vw, 20px), 47px);
+    font-weight: 20;
     cursor:pointer;
+    padding: 0.2vw;
+    margin: 0.6vw;
 }
 
-#nameContainer{
-    width: 250px;
-    height: 102px;
-    float: left;
-}
 
 /*CSS that makes links white with a white underline*/
-.whiteUnderline {
-    border-bottom: solid white 1px;
+.white-underline {
     color: white;
-    text-decoration: none;
+    text-decoration: underline white;
+    text-decoration-width: 20px;
     cursor: pointer;
 }
 
 /*CSS that makes links white with NO underline*/
-.whiteNoUnderline {
+.white-no-underline {
     color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/*CSS that makes links black with NO underline*/
-.blackNoUnderline {
-    color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
 /*CSS that makes links white with a white underline*/
-.blackUnderline {
-    border-bottom: solid black 1px;
+.black-underline {
+    color: black;
+    text-decoration: underline black;
+    cursor: pointer;
+}
+
+/*CSS that makes links black with NO underline*/
+.black-no-underline {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-/*CSS for top icons*/
-.topIcons {
-    background-color: #404040;
-    line-height: 0;
-    margin: 10px 20px 0 0;
-    float: right;
-    font-size: 15px;
-}
-
-
-/*CSS for container below navigation bar*/
-.container {
-    height: 100%;
-    margin: 0;
-    display: flex;
-}
-
-/*CSS for side bar*/
-.sideBar {
-    background-color:#404040;
-    position: absolute;
-    width: 280px;
-    border: solid 2px black;
-    border-top: 0;
-    height: 100%;
-    color: white;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-
-/*CSS for side bar text*/
-.sideBarText {
-    position: absolute;
-    left: 50px;
-    height: 100%;
-    min-width: 60%;
-}
 
 /*CSS for project container*/
-.projectListContainer {
+.sidebar-lists {
     list-style-type: none;
-    margin: 15px 0 0 -20px;
 }
-/*CSS for project list text*/
-.projectListElements {
-    margin: 20px 0 0 0;
+
+.sidebar-list-text{
+    padding: 0 0 15px 0;
+    font-size: min(max(2.0vh, 15px), 25px);
+}
+
+/*CSS for top icons*/
+.top-icons {
+    size: auto;
+    width: 4.7vh;
+    padding-bottom: .5vw
+
 }
 
 /*CSS for bottom icons*/
-.bottomIcons {
-    position: absolute;
-    bottom: 15px;
-    left: 14px;
-    background-color: #404040;
-}
+.bottom-icons {
+    size: auto;
+    width: min(max(4.0vh, 20px), 40px);
 
-/*CSS for main page container*/
-#pageBodyContainer {
-    box-sizing: border-box;
-    margin-left: 285px;
-    overflow: auto;
-    height: 100%;
-    width: 100%;
-}
+    padding: .4vw;
 
+}
 
 
 
