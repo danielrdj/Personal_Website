@@ -9,88 +9,117 @@
 </head>
 <body>
 
-<div class="navigationBar">
-    <div id="nameContainer">
-        <p id="name"><a class="whiteNoUnderline" href="../home.html">Daniel <b>Johnson</b></a></p>
-    </div>
-    <a class="whiteUnderline" href="../home.html">Home</a>
-    <a class="whiteUnderline">Tech Website</a>
-    <a class="whiteUnderline" href="contact.html">Contact</a>
-    <div class="topIcons">
-        <p>Socials</p>
-        <a href="https://www.twitter.com/DrDanDj" target="_blank"><img src="../photos/twitterIcon.png" alt="Twitter Link" height="40" width="40"></a>
-        <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img alt="Linked In Link" src="../photos/linkedInIcon.png" height="40" width="40"></a>
-        <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img alt="YouTube Link" src="../photos/youtubeIcon.png" height="40" width="40"></a>
-        <a href="https://github.com/Don213" target="_blank"><img alt="Github Link" src="../photos/githubIcon.png" height="40" width="40"></a>
-    </div>
-</div>
-
-<div class="container">
-    <div class="sideBar">
-        <div class="sideBarText">
-            <h1><a class="whiteUnderline" href="../home.html">Home</a></h1>
-            <h1><a class="whiteUnderline" href="resume.html">Resume</a></h1>
-            <h1><a class="whiteUnderline" href="projects.html">Projects</a></h1>
-            <ul class="projectListContainer">
-                <li class="projectListElements"><a class="whiteNoUnderline" href="nasaCitySmartWorldWise.html">Nasa CitySmart WorldWise</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="monopoly.html">Monopoly</a></li>
-                <!--<li class="projectListElements"><a class="whiteNoUnderline" href="ticTacToe.html">Tic-Tac-Toe</a></li>-->
-            </ul>
-            <!-- new-->
-            <h1><a class="whiteUnderline" href="workExperience.html">Work Experience</a></h1>
-            <ul class="projectListContainer">
-                <li class="projectListElements"><a class="whiteNoUnderline" href="nasaAmesResearchCenter.html">NASA Ames Research Center</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="codingWithKids.html">Coding with Kids</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="qualityFoodService.html">Quality Food Center</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="arcticValleySkiArea.html">Arctic Valley Ski Area</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="bestWesternKodiakInn.html">Best Western Kodiak Inn</a></li>
-            </ul>
-            <!-- new-->
-            <h1 style="position: absolute; bottom: 50px; left: 15px;"><a class="whiteUnderline" href="contact.html">Contact</a></h1>
-            <div class="bottomIcons">
-                <a href="https://www.twitter.com/DrDanDj" target="_blank"><img src="../photos/twitterIcon.png" alt="Twitter Link" height="28" width="28"></a>
-                <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img alt="Linked In Link" src="../photos/linkedInIcon.png" height="28" width="28"></a>
-                <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img alt="YouTube Link" src="../photos/youtubeIcon.png" height="28" width="28"></a>
-                <a href="https://github.com/Don213" target="_blank"><img alt="Github Link" src="../photos/githubIcon.png" height="28" width="28"></a>
+<header>
+    <div class="flex-container" style="justify-content: space-between;">
+        <p id="name"><a class="white-no-underline" href="../home.html">Daniel <b>Johnson</b></a></p>
+        <a class="white-underline" href="../home.html">Home</a>
+        <a class="white-underline" href="../html/resume.html">Resume</a>
+        <a class="white-underline" href="../html/projects.html">Projects</a>
+        <a class="white-underline" href="../html/workExperience.html">Work Experience</a>
+        <a class="white-underline" href="../html/contact.html">Contact</a>
+        <div class="flex-column-container" style="text-align: center; padding: 0 .7vw 0 .4vw;">
+            <a class="white-no-underline" style="font-size: min(max(0.67vw, 10px), 20px); padding-bottom: 0.3vw; padding-top: 0.2vw">Socials</a>
+            <div>
+                <a href="https://www.twitter.com/DrDanDj" target="_blank"><img class="top-icons" src="../photos/twitterIcon.png" alt="Twitter Link"></a>
+                <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img class="top-icons" alt="Linked In Link" src="../photos/linkedInIcon.png"></a>
+                <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img class="top-icons" alt="YouTube Link" src="../photos/youtubeIcon.png"></a>
+                <a href="https://github.com/Don213" target="_blank"><img class="top-icons" alt="Github Link" src="../photos/githubIcon.png"></a>
             </div>
         </div>
     </div>
-    <div id="pageBodyContainer">
-        <div id="arcticValleySkiAreaBodyPage">
+</header>
 
-            <h1 style="border-bottom: solid darkblue 2px; line-height: 40px;">Arctic Valley Ski Area</h1>
-            <div style="display: inline-block;">
-                <div style="float: left; max-width: 62%;">
+<aside>
+    <div class="flex-column-container" style="width: 100%; height: 100%; justify-content: space-between">
+        <div class="flex-column-container" style="margin: 10% 0 0 15%; max-width: 75%; max-height: 90%; justify-content:flex-start">
+            <h1 style="padding-top: 0.04vh"><a class="white-underline" href="../home.html">Home</a></h1>
+            <h1 style="padding-top: 0.04vh"><a class="white-underline" href="../html/resume.html">Resume</a></h1>
+            <h1 style="padding-top: 0.04vh"><a class="white-underline" href="../html/projects.html">Projects</a></h1>
+            <ul class="sidebar-lists">
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/nasaCitySmartWorldWise.html">Nasa CitySmart WorldWise</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/monopoly.html">Monopoly</a></li>
+                <!--<li class="projectListElements"><a class="white-no-underline" href="ticTacToe.html">Tic-Tac-Toe</a></li>-->
+            </ul>
+
+            <h1><a class="white-underline" href="../html/workExperience.html">Work Experience</a></h1>
+            <ul class="sidebar-lists">
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/nasaAmesResearchCenter.html">NASA Ames Research Center</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/codingWithKids.html">Coding with Kids</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/qualityFoodService.html">Quality Food Center</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/arcticValleySkiArea.html">Arctic Valley Ski Area</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/bestWesternKodiakInn.html">Best Western Kodiak Inn</a></li>
+            </ul>
+        </div>
+
+        <div class="flex-column-container" style="align-items: center;">
+            <h1><a class="white-underline" href="html/contact.html">Contact</a></h1>
+            <div class="flex-container" style="justify-content: center">
+                <a href="https://www.twitter.com/DrDanDj" target="_blank"><img class="bottom-icons" src="../photos/twitterIcon.png" alt="Twitter Link"></a>
+                <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img class="bottom-icons" alt="Linked In Link" src="../photos/linkedInIcon.png"></a>
+                <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img class="bottom-icons" alt="YouTube Link" src="../photos/youtubeIcon.png"></a>
+                <a href="https://github.com/Don213" target="_blank"><img class="bottom-icons" alt="Github Link" src="../photos/githubIcon.png"></a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<main>
+    <div id="page-body">
+        <div id="inner-page-body">
+            <!-- PUT STUFF HERE PLEASE-->
+
+            <div id="arctic-valley-ski-area-page">
+                <h1>Arctic Valley Ski Area</h1>
+                <div class="flex-column-container">
                     <h3 style="text-decoration: underline">Position: Ski Lift Operator</h3>
-                    <ul style="padding-top: 10px; padding-bottom: 10px;"><strong>General Responsibilities:</strong>
-                        <ul>
-                            <li style="padding-top: 10px">Operate regular ski lifts and t-bar</li>
-                            <li style="padding-top: 10px">Operate a pull system for the tube park located at the bottom of the mountain</li>
-                            <li style="padding-top: 10px">Communicate problems and relevant information about the mountainside to other workers and management</li>
-                            <li style="padding-top: 10px">Help deliver (by ski) and hold equipment used to repair lifts and other mechanical systems</li>
-                            <li style="padding-top: 10px">Put away and lock up equipment at the top and bottom of the mountain at the end of the day</li>
+                    <div class="flex-container" style="justify-content: space-between">
+                        <div class="flex-column-container" style="width: 37vw">
+                            <ul style="padding-bottom: 0.4vw;"><strong>General Responsibilities:</strong>
+                                <ul>
+                                    <li style="padding-top: 0.4vw">Operate regular ski lifts and t-bar</li>
+                                    <li style="padding-top: 0.4vw">Operate a pull system for the tube park located at the bottom of the mountain</li>
+                                    <li style="padding-top: 0.4vw">Communicate problems and relevant information about the mountainside to other workers and management</li>
+                                    <li style="padding-top: 0.4vw">Help deliver (by ski) and hold equipment used to repair lifts and other mechanical systems</li>
+                                    <li style="padding-top: 0.4vw">Put away and lock up equipment at the top and bottom of the mountain at the end of the day</li>
+                                </ul>
+                            </ul>
+                            <p>I was employed at Arctic Valley Ski area for about 3 months during the beginning of 2019 when I was still pursuing my degree at the University of Alaska Anchorage. We had 3 lifts to get to the top of the mountain including a t-bar and I would rotate between them along with the other lift workers.</p>
+                            <p>I had a lot of fun during my time at Arctic Valley. I carpooled and worked with friends from University while developing most of my skiing skills there. I will never forget the memories and unique experience.</p>
+                            <p><strong>If you would like to learn more about or visit Arctic Valley Ski Area's Website, please click <a target="_blank" href="http://arcticvalley.org/">here</a></strong></p>
+                        </div>
+                        <div class="buttonImageContainer">
+                            <img class="mySlides" alt="Presenting" src="../photos/arcticValleyPhotos/arcticValley.JPG">
+                            <img class="mySlides" alt="Presenting" src="../photos/arcticValleyPhotos/withFriends.JPG">
+                            <img class="mySlides" alt="Presenting" src="../photos/arcticValleyPhotos/sittingOnTube.JPG">
+                            <button class="mySlidesLeftButton" onclick="plusDivs(-1)"> < </button>
+                            <button class="mySlidesRightButton" onclick="plusDivs(+1)"> > </button>
+                            <p><strong>This slideshow includes a few photos taken during my employment at Arctic Valley Ski Area</strong></p>
+                        </div>
+                    </div>
 
-                        </ul>
-                    </ul>
-                    <p>I was employed at Arctic Valley Ski area for about 3 months during the beginning of 2019 when I was still pursuing my degree at the University of Alaska Anchorage. We had 3 lifts to get to the top of the mountain including a t-bar and I would rotate between them along with the other lift workers.</p>
-                    <p>I had a lot of fun during my time at Arctic Valley. I carpooled and worked with friends from University while developing most of my skiing skills there. I will never forget the memories and unique experience.</p>
-                    <p><strong>If you would like to learn more about or visit Arctic Valley Ski Area's Website, please click <a target="_blank" href="http://arcticvalley.org/">here</a></strong></p>
-
-                </div>
-                <div class="buttonImageContainer" style="float: right; max-width: 30%">
-                    <img class="mySlides" alt="Presenting" src="../photos/arcticValleyPhotos/arcticValley.JPG">
-                    <img class="mySlides" alt="Presenting" src="../photos/arcticValleyPhotos/withFriends.JPG">
-                    <img class="mySlides" alt="Presenting" src="../photos/arcticValleyPhotos/sittingOnTube.JPG">
-                    <button class="mySlidesLeftButton" onclick="plusDivs(-1)"> < </button>
-                    <button class="mySlidesRightButton" onclick="plusDivs(+1)"> > </button>
-                    <p><strong>This slideshow includes a few photos taken during my employment at Arctic Valley Ski Area</strong></p>
                 </div>
             </div>
+
+
+
+            <!-- PUT STUFF HERE PLEASE-->
         </div>
     </div>
-</div>
+</main>
+
+<!--
+<footer>
+    <div class="flex-container">
+        <h5>hello</h5>
+    </div>
+</footer>
+-->
+
+
+
 </body>
 
-<!--<script src="../javaScript/jQuery.js"></script>-->
+
 <script src="../javaScript/arcticValleySkiArea.js"></script>
+<!--<script src="../javaScript/jQuery.js"></script>-->
 </html>

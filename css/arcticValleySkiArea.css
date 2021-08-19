@@ -1,45 +1,48 @@
-/*CSS for Arctic Valley Ski Area page*/
-#arcticValleySkiAreaBodyPage{
-    background-color:white;
-    border-top: solid 4px darkblue;
-    border-bottom: solid 4px darkblue;
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 40px 50px 50px 60px;
-    font-family: "Tahoma", "Courier New", monospace;
-    color: black;
-    display: block;
-    text-align: left;
-    letter-spacing: .1rem;
-    line-height: 25px;
+/*CSS for Work Experience page*/
+#arctic-valley-ski-area-page{
+
 }
 
+#arctic-valley-ski-area-page h1{
+    border-bottom: darkblue solid 2px;
+}
+
+#arctic-valley-ski-area-page ul{
+
+}
+
+#arctic-valley-ski-area-page li{
+    font-size: 1vw;
+    letter-spacing: normal;
+    line-height: 2vw;
+}
+
+#arctic-valley-ski-area-page a{
+
+}
 .buttonImageContainer{
 
     position:relative;
-    padding: 5px 5px 5px 5px;
-    min-width: 495px;
-
+    width: 26vw;
 }
 
 .mySlides{
-    size: auto;
-    max-width: 100%;
+    width:26vw;
     border: black solid 1px;
-
+    max-width: 100%
 }
 
 .mySlidesRightButton{
     position:absolute;
 
     top: 50%;
-    right: 0.5%;
+    left: 96.5%;
 
     padding: 1.75% 1% 1.75% 1.75%;
 
     background-color: #555;
     color: white;
-    font-size: 16px;
+    font-size: 0.5vw;
     border: none;
     cursor: pointer;
     opacity:75%;
@@ -49,13 +52,13 @@
     position: absolute;
 
     top: 50%;
-    left: 0.9%;
+    right:96%;
 
     padding: 1.75% 1% 1.75% 1.75%;
 
     background-color: #555;
     color: white;
-    font-size: 16px;
+    font-size: 0.5vw;
     border: none;
     cursor: pointer;
     opacity:75%;
