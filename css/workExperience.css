@@ -1,15 +1,22 @@
 /*CSS for Work Experience page*/
-#workExperienceBodyPage{
-    background-color:white;
-    border-top: solid 4px darkblue;
-    border-bottom: solid 4px darkblue;
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 40px 50px 0 60px;
-    font-family: "Tahoma", "Courier New", monospace;
-    color: black;
-    display: block;
-    text-align: left;
-    letter-spacing: .1rem;
-    line-height: 25px;
+#work-experience-page{
+
+}
+
+#work-experience-page h1{
+    border-bottom: darkblue solid 2px;
+}
+
+#work-experience-page ul{
+
+}
+
+#work-experience-page li{
+    font-size: 1.5vw;
+    letter-spacing: normal;
+    line-height: 3rem;
+}
+
+#work-experience-page a{
+
 }
