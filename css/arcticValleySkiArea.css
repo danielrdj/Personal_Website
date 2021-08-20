@@ -1,6 +1,7 @@
 /*CSS for Work Experience page*/
 #arctic-valley-ski-area-page{
-
+    display: flex;
+    flex-direction: column;
 }
 
 #arctic-valley-ski-area-page h1{

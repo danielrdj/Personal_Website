@@ -1,14 +1,23 @@
-/*CSS for monopoly page*/
-#monopolyPageBody{
-    background-color:white;
-    border-top: solid 4px darkblue;
-    border-bottom: solid 4px darkblue;
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 40px 50px 0 60px;
-    font-family: "Tahoma", "Courier New", monospace;
-    color: black;
-    display: flow-root;
-    letter-spacing: .1rem;
-    line-height: 25px;
+/*CSS for Work Experience page*/
+#monopoly-page{
+    display: flex;
+    flex-direction: column;
+}
+
+#monopoly-page h1{
+    border-bottom: darkblue solid 2px;
+}
+
+#monopoly-page ul{
+
+}
+
+#monopoly-page li{
+    font-size: 1vw;
+    letter-spacing: normal;
+    line-height: 2vw;
+}
+
+#monopoly-page a{
+
 }

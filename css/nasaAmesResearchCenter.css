@@ -1,46 +1,49 @@
-/*CSS for NASA Ames Research Center page*/
-#nasaAmesResearchCenterBodyPage{
-    background-color:white;
-    border-top: solid 4px darkblue;
-    border-bottom: solid 4px darkblue;
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 40px 50px 50px 60px;
-    font-family: "Tahoma", "Courier New", monospace;
-    color: black;
-    display: block;
-    text-align: left;
-    letter-spacing: .1rem;
-    line-height: 25px;
+/*CSS for Work Experience page*/
+#nasa-ames-research-center-page{
+
 }
 
+#nasa-ames-research-center-page h1{
+    border-bottom: darkblue solid 2px;
+}
 
+#nasa-ames-research-center-page ul{
+
+}
+
+#nasa-ames-research-center-page li{
+    font-size: 1vw;
+    letter-spacing: normal;
+    line-height: 2vw;
+}
+
+#nasa-ames-research-center-page a{
+
+}
 .buttonImageContainer{
 
     position:relative;
-    padding: 5px 5px 5px 5px;
-    min-width: 495px;
-
+    width: 30vw;
+    margin-left: 1vw;
 }
 
 .mySlides{
-    size: auto;
-    max-width: 100%;
+    width:30vw;
     border: black solid 1px;
-
+    max-width: 100%
 }
 
 .mySlidesRightButton{
     position:absolute;
 
     top: 50%;
-    right: 0.5%;
+    left: 96.5%;
 
     padding: 1.75% 1% 1.75% 1.75%;
 
     background-color: #555;
     color: white;
-    font-size: 16px;
+    font-size: 0.5vw;
     border: none;
     cursor: pointer;
     opacity:75%;
@@ -50,13 +53,13 @@
     position: absolute;
 
     top: 50%;
-    left: 0.9%;
+    right:96%;
 
     padding: 1.75% 1% 1.75% 1.75%;
 
     background-color: #555;
     color: white;
-    font-size: 16px;
+    font-size: 0.5vw;
     border: none;
     cursor: pointer;
     opacity:75%;

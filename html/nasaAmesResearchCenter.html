@@ -5,96 +5,126 @@
     <title>Daniel Johnson</title>
     <link rel="stylesheet" href="../css/foundation.css">
     <link rel="stylesheet" href="../css/nasaAmesResearchCenter.css">
-
     <link rel="icon" href="../photos/favicon.ico">
 </head>
 <body>
 
-<div class="navigationBar">
-    <div id="nameContainer">
-        <p id="name"><a class="whiteNoUnderline" href="../home.html">Daniel <b>Johnson</b></a></p>
-    </div>
-    <a class="whiteUnderline" href="../home.html">Home</a>
-    <a class="whiteUnderline">Tech Website</a>
-    <a class="whiteUnderline" href="contact.html">Contact</a>
-    <div class="topIcons">
-        <p>Socials</p>
-        <a href="https://www.twitter.com/DrDanDj" target="_blank"><img src="../photos/twitterIcon.png" alt="Twitter Link" height="40" width="40"></a>
-        <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img alt="Linked In Link" src="../photos/linkedInIcon.png" height="40" width="40"></a>
-        <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img alt="YouTube Link" src="../photos/youtubeIcon.png" height="40" width="40"></a>
-        <a href="https://github.com/Don213" target="_blank"><img alt="Github Link" src="../photos/githubIcon.png" height="40" width="40"></a>
-    </div>
-</div>
-
-<div class="container">
-    <div class="sideBar">
-        <div class="sideBarText">
-            <h1><a class="whiteUnderline" href="../home.html">Home</a></h1>
-            <h1><a class="whiteUnderline" href="resume.html">Resume</a></h1>
-            <h1><a class="whiteUnderline" href="projects.html">Projects</a></h1>
-            <ul class="projectListContainer">
-                <li class="projectListElements"><a class="whiteNoUnderline" href="nasaCitySmartWorldWise.html">Nasa CitySmart WorldWise</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="monopoly.html">Monopoly</a></li>
-                <!--<li class="projectListElements"><a class="whiteNoUnderline" href="ticTacToe.html">Tic-Tac-Toe</a></li>-->
-            </ul>
-            <!-- new-->
-            <h1><a class="whiteUnderline" href="workExperience.html">Work Experience</a></h1>
-            <ul class="projectListContainer">
-                <li class="projectListElements"><a class="whiteNoUnderline" href="nasaAmesResearchCenter.html">NASA Ames Research Center</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="codingWithKids.html">Coding with Kids</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="qualityFoodService.html">Quality Food Center</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="arcticValleySkiArea.html">Arctic Valley Ski Area</a></li>
-                <li class="projectListElements"><a class="whiteNoUnderline" href="bestWesternKodiakInn.html">Best Western Kodiak Inn</a></li>
-            </ul>
-            <!-- new-->
-            <h1 style="position: absolute; bottom: 50px; left: 15px;"><a class="whiteUnderline" href="contact.html">Contact</a></h1>
-            <div class="bottomIcons">
-                <a href="https://www.twitter.com/DrDanDj" target="_blank"><img src="../photos/twitterIcon.png" alt="Twitter Link" height="28" width="28"></a>
-                <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img alt="Linked In Link" src="../photos/linkedInIcon.png" height="28" width="28"></a>
-                <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img alt="YouTube Link" src="../photos/youtubeIcon.png" height="28" width="28"></a>
-                <a href="https://github.com/Don213" target="_blank"><img alt="Github Link" src="../photos/githubIcon.png" height="28" width="28"></a>
+<header>
+    <div class="flex-container" style="justify-content: space-between;">
+        <p id="name"><a class="white-no-underline" href="../home.html">Daniel <b>Johnson</b></a></p>
+        <a class="white-underline" href="../home.html">Home</a>
+        <a class="white-underline" href="../html/resume.html">Resume</a>
+        <a class="white-underline" href="../html/projects.html">Projects</a>
+        <a class="white-underline" href="../html/workExperience.html">Work Experience</a>
+        <a class="white-underline" href="../html/contact.html">Contact</a>
+        <div class="flex-column-container" style="text-align: center; padding: 0 .7vw 0 .4vw;">
+            <a class="white-no-underline" style="font-size: min(max(0.67vw, 10px), 20px); padding-bottom: 0.3vw; padding-top: 0.2vw">Socials</a>
+            <div>
+                <a href="https://www.twitter.com/DrDanDj" target="_blank"><img class="top-icons" src="../photos/twitterIcon.png" alt="Twitter Link"></a>
+                <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img class="top-icons" alt="Linked In Link" src="../photos/linkedInIcon.png"></a>
+                <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img class="top-icons" alt="YouTube Link" src="../photos/youtubeIcon.png"></a>
+                <a href="https://github.com/Don213" target="_blank"><img class="top-icons" alt="Github Link" src="../photos/githubIcon.png"></a>
             </div>
         </div>
     </div>
-    <div id="pageBodyContainer">
-        <div id="nasaAmesResearchCenterBodyPage">
+</header>
 
-            <h1 style="border-bottom: solid darkblue 2px; line-height: 40px;">NASA Ames Research Center</h1>
-            <div style="display: inline-block;">
-                <div style="float: left; max-width: 56%;">
-                    <h3 style="text-decoration: underline">Position: Programming Intern</h3>
-                        <ul style="padding-top: 10px; padding-bottom: 10px;"><strong>General Responsibilities:</strong>
+<aside>
+    <div class="flex-column-container" style="width: 100%; height: 100%; justify-content: space-between">
+        <div class="flex-column-container" style="margin: 10% 0 0 15%; max-width: 75%; max-height: 90%; justify-content:flex-start">
+            <h1 style="padding-top: 0.04vh"><a class="white-underline" href="../home.html">Home</a></h1>
+            <h1 style="padding-top: 0.04vh"><a class="white-underline" href="../html/resume.html">Resume</a></h1>
+            <h1 style="padding-top: 0.04vh"><a class="white-underline" href="../html/projects.html">Projects</a></h1>
+            <ul class="sidebar-lists">
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/nasaCitySmartWorldWise.html">Nasa CitySmart WorldWise</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/monopoly.html">Monopoly</a></li>
+                <!--<li class="projectListElements"><a class="white-no-underline" href="ticTacToe.html">Tic-Tac-Toe</a></li>-->
+            </ul>
+
+            <h1><a class="white-underline" href="../html/workExperience.html">Work Experience</a></h1>
+            <ul class="sidebar-lists">
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/nasaAmesResearchCenter.html">NASA Ames Research Center</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/codingWithKids.html">Coding with Kids</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/qualityFoodService.html">Quality Food Center</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/arcticValleySkiArea.html">Arctic Valley Ski Area</a></li>
+                <li class="sidebar-list-text"><a class="white-no-underline" href="../html/bestWesternKodiakInn.html">Best Western Kodiak Inn</a></li>
+            </ul>
+        </div>
+
+        <div class="flex-column-container" style="align-items: center;">
+            <h1><a class="white-underline" href="html/contact.html">Contact</a></h1>
+            <div class="flex-container" style="justify-content: center">
+                <a href="https://www.twitter.com/DrDanDj" target="_blank"><img class="bottom-icons" src="../photos/twitterIcon.png" alt="Twitter Link"></a>
+                <a href="https://www.linkedin.com/in/daniel-johnson-958313184/" target="_blank"><img class="bottom-icons" alt="Linked In Link" src="../photos/linkedInIcon.png"></a>
+                <a href="https://www.youtube.com/channel/UC77MGE9dV438Sx7Olj3eYhQ" target="_blank"><img class="bottom-icons" alt="YouTube Link" src="../photos/youtubeIcon.png"></a>
+                <a href="https://github.com/Don213" target="_blank"><img class="bottom-icons" alt="Github Link" src="../photos/githubIcon.png"></a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<main>
+    <div id="page-body">
+        <div id="inner-page-body">
+            <!-- PUT STUFF HERE PLEASE-->
+            <div id="nasa-ames-research-center-page">
+
+
+                <h1>NASA Ames Research Center</h1>
+                <h3 style="padding-top: 1vw">Position: Programming Intern</h3>
+                <div style="display: flex; justify-content: space-between">
+
+                    <div style="width: 35vw">
+                        <ul style="padding-bottom: 0.4vw;"><strong>General Responsibilities:</strong>
                             <ul>
-                                <li style="padding-top: 10px">Program, document, and understand code using Python and JavaScript for primarily backend development</li>
-                                <li style="padding-top: 10px">Regularly use Linux servers to host websites, databases, and run command line scripts</li>
-                                <li style="padding-top: 10px">Create and/or sort geospatial data for project use</li>
-                                <li style="padding-top: 10px">Gather and save dynamic data for dynamic visualization</li>
-                                <li style="padding-top: 10px">Gather and save static data for static visualization</li>
-                                <li style="padding-top: 10px">Assist, collaborate, and communicate with other team members nearby or in New York</li>
-                                <li style="padding-top: 10px">Demo, present, and review feedback on application progress during meetings and conferences</li>
+                                <li style="padding-top: 0.4vw">Program, document, and understand code using Python and JavaScript for primarily backend development</li>
+                                <li style="padding-top: 0.4vw">Regularly use Linux servers to host websites, databases, and run command line scripts</li>
+                                <li style="padding-top: 0.4vw">Create and/or sort geospatial data for project use</li>
+                                <li style="padding-top: 0.4vw">Gather and save dynamic data for dynamic visualization</li>
+                                <li style="padding-top: 0.4vw">Gather and save static data for static visualization</li>
+                                <li style="padding-top: 0.4vw">Assist, collaborate, and communicate with other team members nearby or in New York</li>
+                                <li style="padding-top: 0.4vw">Demo, present, and review feedback on application progress during meetings and conferences</li>
                             </ul>
                         </ul>
-                    <p>While working as an intern for NASA Ames Research Center, I worked with Kiae Shin, students of Fei Tian Academy of the Arts, and Ronald Fortunado. Kiae was my main partner in the project and Ron was our supervisor. Ron also worked closely with Patrick Hogan, the NASA World Wind Program Manager, while supervising our work to ensure our project was up to his standards and giving us any feedback they discussed. </p>
-                    <p>The focus of my job was to collaborate with others and create a web application called NASA CitySmart WorldWise. This project was submitted to the 2017 NASA Europa Challenge and can be better understood by clicking <a href="nasaCitySmartWorldWise.html">here</a> or navigating to the project page on the left navigation bar. I was tasked with mostly back-end coding while working with JavaScript and Python. </p>
+                    </div>
+
+                    <div class="buttonImageContainer">
+                        <img class="mySlides" alt="Presenting" src="../photos/presenting1.JPG">
+                        <img class="mySlides" alt="Presenting" src="../photos/presenting2.JPG">
+                        <img class="mySlides" alt="Presenting" src="../photos/presenting5.JPG">
+                        <img class="mySlides" alt="Presenting" src="../photos/presenting3.JPG">
+                        <img class="mySlides" alt="Presenting" src="../photos/geospatialLayers2Cropped.png">
+                        <img class="mySlides" alt="Presenting" src="../photos/windTurbineDataCropped.png">
+
+                        <button class="mySlidesLeftButton" onclick="plusDivs(-1)"> < </button>
+                        <button class="mySlidesRightButton" onclick="plusDivs(+1)"> > </button>
+                        <p><strong><a>This slideshow includes photos of a local convention that I helped present the CitySmart WorldWise project at. Other individuals are: Kiae Shin, Tiger Oka, and our mentor Mr. Seraphim </a></strong></p>
+                    </div>
 
                 </div>
-                <div class="buttonImageContainer" style="float: right; max-width: 40%">
-                    <img class="mySlides" alt="Presenting" src="../photos/presenting1.JPG">
-                    <img class="mySlides" alt="Presenting" src="../photos/presenting2.JPG">
-                    <img class="mySlides" alt="Presenting" src="../photos/presenting5.JPG">
-                    <img class="mySlides" alt="Presenting" src="../photos/presenting3.JPG">
-                    <img class="mySlides" alt="Presenting" src="../photos/geospatialLayers2Cropped.png">
-                    <img class="mySlides" alt="Presenting" src="../photos/windTurbineDataCropped.png">
+                <p>While working as an intern for NASA Ames Research Center, I worked with Kiae Shin, students of Fei Tian Academy of the Arts, and Ronald Fortunado. Kiae was my main partner in the project and Ron was our supervisor. Ron also worked closely with Patrick Hogan, the NASA World Wind Program Manager, while supervising our work to ensure our project was up to his standards and giving us any feedback they discussed. </p>
+                <p>The focus of my job was to collaborate with others and create a web application called NASA CitySmart WorldWise. This project was submitted to the 2017 NASA Europa Challenge and can be better understood by clicking <a href="nasaCitySmartWorldWise.html">here</a> or navigating to the project page on the left navigation bar. I was tasked with mostly back-end coding while working with JavaScript and Python. </p>
 
-                    <button class="mySlidesLeftButton" onclick="plusDivs(-1)"> < </button>
-                    <button class="mySlidesRightButton" onclick="plusDivs(+1)"> > </button>
-                    <p><strong><a>This slideshow includes photos of a local convention that I helped present the CitySmart WorldWise project at. Other individuals are: Kiae Shin, Tiger Oka, and our mentor Mr. Seraphim </a></strong></p>
-                </div>
+
             </div>
+            <!-- PUT STUFF HERE PLEASE-->
         </div>
     </div>
-</div>
+</main>
+
+<!--
+<footer>
+    <div class="flex-container">
+        <h5>hello</h5>
+    </div>
+</footer>
+-->
+
+
+
 </body>
+
+
 <script src="../javaScript/nasaAmesResearchCenter.js"></script>
 <!--<script src="../javaScript/jQuery.js"></script>-->
 </html>
