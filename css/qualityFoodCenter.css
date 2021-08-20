@@ -1,15 +1,75 @@
-/*CSS for Quality Food Center page*/
-#qualityFoodCenterBodyPage{
-    background-color:white;
-    border-top: solid 4px darkblue;
-    border-bottom: solid 4px darkblue;
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 40px 50px 50px 60px;
-    font-family: "Tahoma", "Courier New", monospace;
-    color: black;
-    display: block;
-    text-align: left;
-    letter-spacing: .1rem;
-    line-height: 25px;
+/*CSS for Work Experience page*/
+#quality-food-center-page{
+    display: flex;
+    flex-direction: column;
 }
+
+#quality-food-center-page h1{
+    border-bottom: darkblue solid 2px;
+}
+
+#quality-food-center-page ul{
+
+}
+
+#quality-food-center-page li{
+    font-size: 1vw;
+    letter-spacing: normal;
+    line-height: 2vw;
+}
+
+#quality-food-center-page a{
+
+}
+.buttonImageContainer{
+
+    position:relative;
+    width: 26vw;
+}
+
+.mySlides{
+    width:26vw;
+    border: black solid 1px;
+    max-width: 100%
+}
+
+.mySlidesRightButton{
+    position:absolute;
+
+    top: 50%;
+    left: 96.5%;
+
+    padding: 1.75% 1% 1.75% 1.75%;
+
+    background-color: #555;
+    color: white;
+    font-size: 0.5vw;
+    border: none;
+    cursor: pointer;
+    opacity:75%;
+}
+
+.mySlidesLeftButton{
+    position: absolute;
+
+    top: 50%;
+    right:96%;
+
+    padding: 1.75% 1% 1.75% 1.75%;
+
+    background-color: #555;
+    color: white;
+    font-size: 0.5vw;
+    border: none;
+    cursor: pointer;
+    opacity:75%;
+}
+
+.mySlidesLeftButton:hover{
+    background-color: black;
+}
+
+.mySlidesRightButton:hover{
+    background-color: black;
+}
+
