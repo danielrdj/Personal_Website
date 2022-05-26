@@ -21,7 +21,7 @@ body{
     overflow: auto;
     font-family: "Lucida Console", "Courier New", monospace;
     display: grid;
-    grid-template-rows: 10vh 90vh;
+    grid-template-rows: 1fr 9fr;
     grid-template-columns: 1.5fr 8.5fr;
 }
 
@@ -32,8 +32,13 @@ header{
     background: #404040;
     border-bottom: black solid 2px;
     font-size: 2vw;
-    overflow: hidden;
+    overflow: auto;
+    min-height: min(max(10vh, 100px), 50px);
+}
 
+/*CSS for header (top navigation bar)*/
+header a{
+    min(max(0.67vh, 20px), 10px);
 }
 
 /*CSS for aside (side bar)*/
@@ -46,7 +51,7 @@ aside{
 
 
     min-width: 206px;
-    min-height: 650px;
+    min-height: 90vh;
 
 
     font-family: "Lucida Console", "Courier New", monospace;
@@ -55,7 +60,7 @@ aside{
 
 /*CSS for h1 inside the sidebar*/
 aside h1{
-    padding: 0 0 1vh 0;
+    padding: 0 0 0.75vh 0;
     margin: 0 0 0 0;
     font-size: min(max(3.2vh, 20px), 28px);
 
@@ -68,7 +73,7 @@ aside h1{
 
 /*CSS for sidebar list text*/
 .sidebar-list-text{
-    padding: 0 0 15px 0;
+    padding: 0 0 1vh 0;
     font-size: min(max(1.8vh, 15px), 20px);
 }
 
