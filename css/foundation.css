@@ -81,9 +81,9 @@ aside h1{
 main{
     grid-column: 2/3;
     grid-row: 2/3;
-
     height: 100%;
     width: 100%;
+
     min-height:650px;
     overflow: auto;
     font-family: "Lucida Console", "Courier New", monospace;
